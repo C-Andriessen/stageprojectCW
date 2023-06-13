@@ -1,0 +1,66 @@
+.small-editor {
+    .ck-editor__editable_inline {
+        min-height: 300px;
+    }
+}
+.medium-editor {
+    .ck-editor__editable_inline {
+        min-height: 400px;
+    }
+}
+.large-editor {
+    .ck-editor__editable_inline {
+        min-height: 600px;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 23vh;
+    object-fit: cover;
+
+}
+
+.img-single {
+    height: 25vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-back {
+    font-size: 20px;
+}
+
+button.form-delete {
+    border: none;
+    background-color: transparent;
+}
+
+.card-project {
+   img {
+    height: 23vh;
+    width: 100%;
+    object-fit: cover;
+   }
+}
+
+.img-show-single {
+    height: 35vh;
+}
+
+table.custom {
+    border-collapse: collapse;
+}
+
+td.custom {
+    position: relative;
+}
+
+tr.strikeout td.custom:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
